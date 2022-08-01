@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.mail_img {
+    width: 42rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+
+.logo {
+    z-index: 999;
+    position: relative;
+    top: 3rem;
+    left: 4rem;
+}
+
+
+/* =================================== */
+/* ================= Navber ================== */
+/* =================================== */
+
+nav {
+    float: right;
+    margin: 4rem 0rem;
+    margin-top: 5rem;
+}
+
+nav  > ul {
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    width: 26rem;
+    height: 3px;
+    border-radius: 3rem;
+    background: #222;
+    margin-top: 0.6rem;
+    margin-right: 4rem;
+}
+
+nav  > ul > li > a {
+    all: unset;
+    color: #444;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 600;
+    color: #444;
+}
+
+/* =================================== */
+/* ================= Hero Upper ================== */
+/* =================================== */
+
+.hero {
+    position: absolute;
+    right: 0rem;
+    top: 10rem;
+}
+
+.hero_upper {
+    display: flex;
+    margin-right: 6rem;
+}
+
+.hero_left {
+    font-size: 6rem;
+    width: 36rem;
+    margin-right: 4rem;
+}
+
+.hero_left > h1 {
+
+}
+
+.hero_left > h1:nth-child(1) {
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+}
+
+.hero_left > h1:nth-child(2) {
+    position: relative;
+    bottom: 3rem;
+    left: 8rem;
+}
+
+.hero_right_item {
+    display: flex;
+    justify-content: space-between;
+    height: 33vh;
+}
+
+.hero_right_item > p {
+    font-size: 2rem;
+    color: #333;
+    align-self: self-end;
+    line-height: 44px;
+    
+}
+
+.social_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social_icons > img {
+
+}
+
+.btn {
+    all: unset;
+    color: #fff;
+    background: #222;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem 4rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+/* =================================== */
+/* ================= Hero Lower ================== */
+/* =================================== */
+.hero_lower {
+    display: flex;
+    align-items: center;
+}
+
+.lower_left > ul {
+    list-style: inside;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    margin-right: 8rem;
+    color: #555;
+}
+
+ul > li {
+
+}
+
+.lower_right {
+    display: flex;
+    align-items: center;
+}
+
+.lower_right_one > p {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.lower_right_one > img {
+    width: 35rem;
+}
+
+.fa-quote-right {
+    font-size: 4rem;
+}
+
+.fa-down-long {
+    font-size: 5rem;
+    position: relative;
+    top: 4rem;
+    margin-left: 1rem;
+}

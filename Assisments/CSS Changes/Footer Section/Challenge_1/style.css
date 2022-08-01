@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:ital,wght@1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.heading {
+    font-family: 'Roboto';
+    font-size: 2rem;
+    margin-left: 12rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 12rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+p {
+    margin-top: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.footer_text {
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
